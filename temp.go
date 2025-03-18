@@ -2,15 +2,14 @@ package main
 
 import "fmt"
 
-//Declaração da variável CONST do ponto de ebulição da água em F
-const ebulicaoF = 212.0
+const ebulicaoK = 373.0
 
 func main() {
 
-	tempF := ebulicaoF            		//Var ou ":="
-	tempC := (tempF - 32) * 5 / 9 		//Var ou ":="
+	tempK := ebulicaoK
+	tempC := tempK - 273.0
 
-	fmt.Println("A temperatura em ebulição da água em °F = ", tempF)
+	fmt.Println("A temperatura em ebulição da água em °K = ", tempK)
 	fmt.Println("A temperatura em ebulição da água em °C = ", tempC)
 
 }
