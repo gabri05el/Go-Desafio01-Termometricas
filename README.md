@@ -1,1 +1,1 @@
-# Go-Projeto01-Conversao-Escala-Termometricas
+# Go-Desafio01-Termometricas
